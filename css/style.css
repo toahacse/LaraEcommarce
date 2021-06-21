@@ -1,0 +1,116 @@
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    color: #000;
+    font-family: Tahoma;
+}
+
+
+
+
+
+/**
+override css
+ */
+.hidden{
+    display: none;
+}
+.bg-light{
+    background-color: #006EB7 !important;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #02aadd;
+    border-color: #02aadd;
+    border-radius: 0px!important;
+}
+
+.mr-auto ,.max-auto{
+    margin-top: 12px!important;
+    margin-bottom: -10px;!important;
+}
+
+
+.margin-top-20{
+    margin-top: 20px;
+}
+.feature-img{
+    max-height: 200px;
+}
+.footer-buttom{
+    padding: 20px;
+    margin-top: 20px;
+    background: #262626;
+    color: #FFF;
+}
+
+
+.product-item{
+    background: #dcf4fc;
+}
+.child-rows{
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    background: #FFF;
+}
+.child-rows a.list-group-item{
+    border-left: 0px !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #02aadd;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color: #000;
+    background: #FFF;
+    border-radius: 10px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #000;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.search-icon-button{
+    background: #FDD922;
+    border: 1px solid #FDD922;
+    transition: .4s;
+}
+.search-icon-button:hover{
+    background: #FDD922;
+    border: 1px solid #FDD922;
+    color: #FFF;
+}
+
+.btn-cart-nav{
+
+}
+.btn-cart-nav:hover{
+background: inherit !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    padding-right: 15px;
+    margin-right: 5px;
+}
+
